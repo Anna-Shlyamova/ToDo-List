@@ -16,6 +16,6 @@ const NewTodoForm: React.FC<NewTodoFormProps> = ({ value, updateText, handleActi
         <button onClick={handleAction}>Add todo</button>
       </label>
     );
-  };
+  }; 
   
   export default NewTodoForm;

@@ -18,7 +18,7 @@ function App() {
       setText('');
     }
   }
-
+ 
   return (
     <div className='App'>
       <NewTodoForm

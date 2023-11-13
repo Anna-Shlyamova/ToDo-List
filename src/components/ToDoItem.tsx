@@ -18,5 +18,5 @@ const TodoItem: React.FC<ToDoItemProps>= ({ id, title, completed }) => {
       </li>
     );
   };
-  
+   
   export default TodoItem;

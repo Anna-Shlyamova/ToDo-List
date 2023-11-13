@@ -12,7 +12,7 @@ interface toDoList {
 const initialState: toDoList = {
     list: []
 }
-
+ 
 const todoSlice = createSlice({
     name: 'todos',
     initialState,
