@@ -1,5 +1,6 @@
-import { useAppSelector } from '../hook';
-import TodoItem from './ToDoItem';
+import { useAppSelector } from '../hook.ts';
+import TodoItem from './ToDoItem.tsx';
+import React from 'react';
 
 const TodoList: React.FC = () => {
   const todos = useAppSelector(state => state.todos.list);

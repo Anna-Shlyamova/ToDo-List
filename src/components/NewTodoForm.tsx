@@ -1,3 +1,5 @@
+import React from 'react';
+
 interface NewTodoFormProps{
     value: string,
     updateText: (str: string) => void,
